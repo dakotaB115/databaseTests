@@ -10,11 +10,17 @@ import UIKit
 
 class ViewController: UIViewController {
 
+    @IBOutlet weak var usernameLabel: UILabel!
+    @IBOutlet weak var firstNamelastNameLabel: UILabel!
+    @IBOutlet weak var favoriteFoodLabel: UILabel!
+    @IBOutlet weak var random1Label: UILabel!
+    @IBOutlet weak var random2Label: UILabel!
+        
     override func viewDidLoad() {
         super.viewDidLoad()
-        // Do any additional setup after loading the view, typically from a nib.
+
     }
-
-
+    
+    @IBAction func changeTextButton(_ sender: Any) {
+    }
 }
-
