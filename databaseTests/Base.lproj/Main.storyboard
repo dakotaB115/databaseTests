@@ -36,7 +36,7 @@
                                 <nil key="textColor"/>
                                 <nil key="highlightedColor"/>
                             </label>
-                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Random 1" textAlignment="center" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="q6z-Um-6Fh">
+                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Random 1" textAlignment="center" lineBreakMode="tailTruncation" numberOfLines="10" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="q6z-Um-6Fh">
                                 <rect key="frame" x="16" y="363.5" width="382" height="26.5"/>
                                 <fontDescription key="fontDescription" type="system" pointSize="22"/>
                                 <nil key="textColor"/>
@@ -52,7 +52,7 @@
                                     <action selector="changeTextButton:" destination="ugM-rp-DoY" eventType="touchUpInside" id="guc-EK-4IU"/>
                                 </connections>
                             </button>
-                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Random 2" textAlignment="center" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="MVD-9w-qWg">
+                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Random 2" textAlignment="center" lineBreakMode="tailTruncation" numberOfLines="10" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="MVD-9w-qWg">
                                 <rect key="frame" x="16" y="450" width="382" height="26.5"/>
                                 <fontDescription key="fontDescription" type="system" pointSize="22"/>
                                 <nil key="textColor"/>
@@ -74,10 +74,10 @@
                             <constraint firstItem="q6z-Um-6Fh" firstAttribute="top" secondItem="czO-jN-uEL" secondAttribute="bottom" constant="60" id="dLR-P2-WFA"/>
                             <constraint firstItem="czO-jN-uEL" firstAttribute="top" secondItem="lpr-kK-jiA" secondAttribute="bottom" constant="60" id="dew-Ba-NDd"/>
                             <constraint firstItem="r7M-2o-Rfq" firstAttribute="trailing" secondItem="czO-jN-uEL" secondAttribute="trailing" constant="16" id="f9e-fw-ANd"/>
+                            <constraint firstItem="r7M-2o-Rfq" firstAttribute="bottom" secondItem="jws-4W-i4x" secondAttribute="bottom" constant="115.5" id="hCV-cB-NNn"/>
                             <constraint firstItem="MVD-9w-qWg" firstAttribute="top" secondItem="q6z-Um-6Fh" secondAttribute="bottom" constant="60" id="j7t-te-Z9N"/>
                             <constraint firstItem="jws-4W-i4x" firstAttribute="leading" secondItem="r7M-2o-Rfq" secondAttribute="leading" constant="16" id="qLZ-mY-42C"/>
                             <constraint firstItem="MVD-9w-qWg" firstAttribute="leading" secondItem="r7M-2o-Rfq" secondAttribute="leading" constant="16" id="uO4-2R-Yj6"/>
-                            <constraint firstItem="jws-4W-i4x" firstAttribute="top" secondItem="MVD-9w-qWg" secondAttribute="bottom" constant="240" id="wHK-Im-e14"/>
                             <constraint firstItem="q6z-Um-6Fh" firstAttribute="leading" secondItem="r7M-2o-Rfq" secondAttribute="leading" constant="16" id="zzy-9o-cFl"/>
                         </constraints>
                         <viewLayoutGuide key="safeArea" id="r7M-2o-Rfq"/>
