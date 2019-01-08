@@ -20,6 +20,7 @@ class ViewController: UIViewController {
     var ref: DatabaseReference!
     var databaseHandle: DatabaseHandle = 0
     var userNumber: Int = 0
+    var numberOfUsers: Int = 0
     var counter: Int = 0
     
     class User {
@@ -59,16 +60,21 @@ class ViewController: UIViewController {
     override func viewDidLoad() {
         super.viewDidLoad()
         let rand = Int(arc4random_uniform(17))
-        userNumber = 7
+        userNumber = rand
         ref = Database.database().reference()
+        ref.child("users").observe(.value) { (snapshot: DataSnapshot!) in
+            self.numberOfUsers = Int(snapshot.childrenCount)
+        }
         userData()
     }
     
     @IBAction func changeTextButton(_ sender: Any) {
-        /*let rand = Int(arc4random_uniform(17))
+        let rand = Int(arc4random_uniform(UInt32(numberOfUsers)))
         userNumber = rand
         print(userNumber)
-        userData()*/
-        
+        userData()
+        print(rand)
     }
+    
+    
 }

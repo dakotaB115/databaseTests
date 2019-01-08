@@ -13,6 +13,7 @@
 		05017F7121E1500200C4E753 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 05017F6F21E1500200C4E753 /* LaunchScreen.storyboard */; };
 		05EE43E121E155E80058953D /* GoogleService-Info.plist in Resources */ = {isa = PBXBuildFile; fileRef = 05EE43E021E155E80058953D /* GoogleService-Info.plist */; };
 		05EE43E321E1579B0058953D /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 05EE43E221E1579B0058953D /* ViewController.swift */; };
+		05EE43E521E3C01E0058953D /* AddDataViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 05EE43E421E3C01E0058953D /* AddDataViewController.swift */; };
 		C719A0DE4BF786915C1B1B50 /* Pods_databaseTests.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 0D3D2A4E8B533EDF5988F908 /* Pods_databaseTests.framework */; };
 /* End PBXBuildFile section */
 
@@ -25,6 +26,7 @@
 		05017F7221E1500200C4E753 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		05EE43E021E155E80058953D /* GoogleService-Info.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; name = "GoogleService-Info.plist"; path = "../../../../Downloads/GoogleService-Info.plist"; sourceTree = "<group>"; };
 		05EE43E221E1579B0058953D /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
+		05EE43E421E3C01E0058953D /* AddDataViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AddDataViewController.swift; sourceTree = "<group>"; };
 		0D3D2A4E8B533EDF5988F908 /* Pods_databaseTests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_databaseTests.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		258465DAE2539DC8A84719C9 /* Pods-databaseTests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-databaseTests.release.xcconfig"; path = "Pods/Target Support Files/Pods-databaseTests/Pods-databaseTests.release.xcconfig"; sourceTree = "<group>"; };
 		7E8155235F41BA72DE1C983A /* Pods-databaseTests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-databaseTests.debug.xcconfig"; path = "Pods/Target Support Files/Pods-databaseTests/Pods-databaseTests.debug.xcconfig"; sourceTree = "<group>"; };
@@ -65,6 +67,7 @@
 			children = (
 				05017F6621E1500100C4E753 /* AppDelegate.swift */,
 				05EE43E221E1579B0058953D /* ViewController.swift */,
+				05EE43E421E3C01E0058953D /* AddDataViewController.swift */,
 				05017F6A21E1500100C4E753 /* Main.storyboard */,
 				05017F6D21E1500100C4E753 /* Assets.xcassets */,
 				05017F6F21E1500200C4E753 /* LaunchScreen.storyboard */,
@@ -209,6 +212,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				05EE43E321E1579B0058953D /* ViewController.swift in Sources */,
+				05EE43E521E3C01E0058953D /* AddDataViewController.swift in Sources */,
 				05017F6721E1500100C4E753 /* AppDelegate.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
